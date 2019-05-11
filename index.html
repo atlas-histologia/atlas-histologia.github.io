@@ -8,10 +8,10 @@
 		<link href="https://fonts.googleapis.com/css?family=Stylish" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
-		<link rel="stylesheet" href="materialize/css/materialize.css">
+		<link rel="stylesheet" href="{{ site.baseurl }}/materialize/css/materialize.css">
 		<!-- Compiled and minified JavaScript -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="text/javascript"></script>
-		<script src="materialize/js/materialize.js"></script>
+		<script src="{{ site.baseurl }}/materialize/js/materialize.js"></script>
 	</head>
 <body>
 <header style="margin-bottom:10em;">
@@ -23,11 +23,11 @@
 
 	<ul class="sidenav" id="mobile-demo">
 		<center><a style="font-size: 3em;" class="orange-text text-accent-1">ÍNDICE</a></center>
-		<li><a href="contenido/ojo/">1. OJO</a></li>
-		<li><a href="contenido/oido/">2. OÍDO</a></li>
-		<li><a href="contenido/cardiovascular/">3. S. CARDIOVASCULAR</a></li>
-		<li><a href="contenido/digestivo/">4. S. DIGESTIVO</a></li>
-		<li><a href="contenido/urinario/">5. S. URINARIO</a></li>
+		<li><a href="{{ site.baseurl }}/contenido/ojo/">1. OJO</a></li>
+		<li><a href="{{ site.baseurl }}/contenido/oido/">2. OÍDO</a></li>
+		<li><a href="{{ site.baseurl }}/contenido/cardiovascular/">3. S. CARDIOVASCULAR</a></li>
+		<li><a href="{{ site.baseurl }}/contenido/digestivo/">4. S. DIGESTIVO</a></li>
+		<li><a href="{{ site.baseurl }}/contenido/urinario/">5. S. URINARIO</a></li>
 	</ul>
 	<script type="text/javascript">
 	$(document).ready(function(){
@@ -47,7 +47,7 @@
 </div>
 <style type="text/css">
 body {
-	background-image:url(anatomy-veins-arteries.jpg);
+	background-image:url({{ site.baseurl }}/background.jpg);
 	background-repeat:no-repeat;
 	background-size:100%;
 }
