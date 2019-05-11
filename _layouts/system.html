@@ -4,6 +4,21 @@
 <body>
 {% include header.html %}
 {{ content }}
+<script type="text/javascript">
+					// Slider
+$(function(){
+$("#slides").slidesjs({
+	width: 1280,
+	height: 720,
+	play: {
+		active: true,
+		auto: true,
+		interval: 6000,
+		swap: true,
+  	}
+});
+});
+					</script>
 <style type="text/css">
 nav {
 	background-color:#A8A173 !important;
