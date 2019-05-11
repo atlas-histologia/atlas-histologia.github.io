@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Atlas de Histología Humana</title>
+		<meta charset="utf-8">
+		<!-- Compiled and minified CSS -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Stylish" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
+		<link rel="stylesheet" href="materialize/css/materialize.css">
+		<!-- Compiled and minified JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="text/javascript"></script>
+		<script src="materialize/js/materialize.js"></script>
+	</head>
+<body>
+<header style="margin-bottom:10em;">
+	<nav>
+		<div class="nav-wrapper">
+			<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+		</div>
+	</nav>
+
+	<ul class="sidenav" id="mobile-demo">
+		<center><a style="font-size: 3em;" class="orange-text text-accent-1">ÍNDICE</a></center>
+		<li><a href="#">1. OJO</a></li>
+		<li><a href="#">2. OIDO</a></li>
+		<li><a href="#">3. CARDIOBASCULAR</a></li>
+		<li><a href="#">4. DIJESTIVO</a></li>
+		<li><a href="#">5. RENAL</a></li>
+		<li><a href="#">ACERCA DE</a></li>
+	</ul>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('.sidenav').sidenav();
+	});      
+	</script>
+</header>
+<div class="container">
+	<div class="row">
+		<div class="col l12 m12 s12s">
+			<h1 class="center white-text">ATLAS</h1>
+			<h4 class="center white-text">DE HISTOLOGÍA HUMANA</h4>
+		</div>
+	</div>
+</div>
+<style type="text/css">
+body {
+	background-image:url(https://data2.1freewallpapers.com/download/anatomy-veins-arteries.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+nav {
+	background-color:rgba(0,0,0,0) !important;
+}
+.nav-wrapper {
+	background-color:rgba(0,0,0,0.3) !important;
+}
+.container h1 {
+	font-size:150px;
+	font-family:'Stylish', sans-serif;
+}
+
+.container h4 {
+	font-family:'Baloo Bhai', cursive;
+}
+
+h1, h4 {
+	margin:0 !important;
+}
+</style>
+</body>
+</html>
