@@ -11,7 +11,19 @@ $("#slides").slidesjs({
 	width: 1280,
 	height: 720,
 	play: {
-		active: true,
+		active: false,
+		auto: true,
+		interval: 6000,
+		swap: true,
+  	}
+});
+});
+$(function(){
+$("#slides2").slidesjs({
+	width: 4000,
+	height: 3000,
+	play: {
+		active: false,
 		auto: true,
 		interval: 6000,
 		swap: true,
